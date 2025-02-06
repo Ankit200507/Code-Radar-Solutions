@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int a;
+    scanf("%d",&a);
+    if(a>=90){
+        printf("A");
+    }else if(a>=80 and a<90){
+        printf("B");
+    }else if(a>=70 and a<80){
+        printf("C");
+    }else if(a>=60 and a<70){
+        printf("D");
+    }else(a<60){
+        printf("f");
+    }
+    return 0;
+}
