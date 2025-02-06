@@ -11,9 +11,9 @@ int main() {
     }else if(a>=60 and a<70){
         printf("D");
     }else if(a<60){
-        printf("f");
+        printf("F");
     }else{
-        print("invalid")
+        printf("invalid")
     }
     return 0;
 }
