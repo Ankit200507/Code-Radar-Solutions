@@ -13,7 +13,7 @@ int main() {
     }else if(a<60){
         printf("F");
     }else{
-        printf("invalid")
+        printf("invalid");
     }
     return 0;
 }
