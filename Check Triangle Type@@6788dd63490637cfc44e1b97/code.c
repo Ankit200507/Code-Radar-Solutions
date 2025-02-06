@@ -4,7 +4,7 @@ int main() {
     scanf("%d %d %d",&a,&b,&b);
     if(a==b && b==c){
         printf("Eqiulateral");
-    }else if(a==b || b==c || c==a){
+    }else if((a==b) || (b==c) || (c==a)){
         printf("Isosceles");
     }else{
         printf("Scalene");
