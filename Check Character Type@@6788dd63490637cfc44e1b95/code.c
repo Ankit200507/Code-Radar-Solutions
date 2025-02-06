@@ -7,7 +7,7 @@ int main() {
      ch== 'A' || ch== 'E' || ch== 'I' || ch== 'O' || ch== 'U'){
         printf("Vowel");
     }else if(isalpha(ch)){
-        printf("Consonent");
+        printf("Consonant");
     }else if(isdigit(ch)){
         printf("Digit");
     }else{
