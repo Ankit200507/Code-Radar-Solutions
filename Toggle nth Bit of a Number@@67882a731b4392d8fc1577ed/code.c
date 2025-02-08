@@ -4,6 +4,6 @@ int main() {
     scanf("%d %d",&a,&n);
     int t=1<<n;
     a=a^t;
-    printf("%d",a)
+    printf("%d",a);
     return 0;
 }
